@@ -1,15 +1,15 @@
 pyLast
 ======
 
-[![Build status](https://travis-ci.org/pylast/pylast.svg?branch=develop)](https://travis-ci.org/pylast/pylast) 
-[![PyPI version](https://img.shields.io/pypi/v/pylast.svg)](https://pypi.python.org/pypi/pylast/) 
+[![Build status](https://travis-ci.org/pylast/pylast.svg?branch=develop)](https://travis-ci.org/pylast/pylast)
+[![PyPI version](https://img.shields.io/pypi/v/pylast.svg)](https://pypi.python.org/pypi/pylast/)
 <!--[![PyPI downloads](https://img.shields.io/pypi/dm/pylast.svg)](https://pypi.python.org/pypi/pylast/)-->
 [![Coverage (Codecov)](https://codecov.io/gh/pylast/pylast/branch/develop/graph/badge.svg)](https://codecov.io/gh/pylast/pylast)
 [![Coverage (Coveralls)](https://coveralls.io/repos/github/pylast/pylast/badge.svg?branch=develop)](https://coveralls.io/github/pylast/pylast?branch=develop)
 [![Code health](https://landscape.io/github/pylast/pylast/develop/landscape.svg)](https://landscape.io/github/hugovk/pylast/develop)
 
 
-A Python interface to [Last.fm](http://www.last.fm/) and other API-compatible websites such as [Libre.fm](http://libre.fm/).
+A Python interface to [Last.fm](https://www.last.fm/) and other API-compatible websites such as [Libre.fm](https://libre.fm/).
 
 Try using the pydoc utility for help on usage or see [test_pylast.py](tests/test_pylast.py) for examples.
 
@@ -20,6 +20,13 @@ Install via pip:
 
     pip install pylast
 
+Note:
+
+* pyLast >= 2.0.0 supports Python 2.7.10+ and 3.4, 3.5, 3.6.
+* pyLast >= 1.7.0 < 2.0.0 supports Python 2.7, 3.3, 3.4, 3.5, 3.6.
+* pyLast >= 1.0.0 < 1.7.0 supports Python 2.7, 3.3, 3.4.
+* pyLast >= 0.5 < 1.0.0 supports Python 2, 3.
+* pyLast < 0.5 supports Python 2.
 
 Features
 --------
@@ -43,7 +50,7 @@ Here's some simple code example to get you started. In order to create any objec
 import pylast
 
 # You have to have your own unique two values for API_KEY and API_SECRET
-# Obtain yours from http://www.last.fm/api/account/create for Last.fm
+# Obtain yours from https://www.last.fm/api/account/create for Last.fm
 API_KEY = "b25b959554ed76058ac220b7b2e0a026"  # this is a sample key
 API_SECRET = "425b55975eed76058ac220b7b4e8a054"
 
